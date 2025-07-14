@@ -24,11 +24,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .search-container{
   width: 400px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   padding: 8px 24px;
   display: flex;
   align-items: center;
@@ -54,4 +54,45 @@
 .other-section ul li a{
   text-decoration: none;
   color: black;
+}
+
+
+/* Banner-Section */
+.banner-section{
+  box-sizing: border-box;
+  width: 1240px;
+  height: 460px;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 38px 50px;
+  background-color: #FEEAE9;
+  margin: 64px auto;
+  border-radius: 30px;
+
+}
+.content{
+  width: 560px;
+  /* border: 2px solid black; */
+}
+.title{
+  font-size: 50px;
+  font-weight: bold;
+}
+.image{
+  width: 400px;
+}
+.value{
+  font-size: 40px;
+  color: #ff136f;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.btn{
+  padding: 8px 16px;
+  background-color: #ff136f;
+  border-radius: 10px;
+  color: white;
+  border: none;
 }
