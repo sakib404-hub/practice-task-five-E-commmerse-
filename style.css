@@ -138,10 +138,10 @@
 }
 /* Styling different-section */
 .diiferent-categories{
-  width: 98.3vw;
+  width: 100%;
   /* height: 500px; */
   background-color: aliceblue;
-  border: 2px solid black;
+  border: 2px solid aliceblue;
 }
 
 .section-shoes{
@@ -194,4 +194,41 @@
 .section-bag{
   width: 1140px;
   margin: 98px auto;
+}
+/* footer-section styling */
+footer{
+  height: 470px;
+  width: 100%;
+}
+.footer-container{
+  height: 450px;
+  width: 1240px;
+  background-color: #fff2f1;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email-section{
+  width: 680px;
+  /* border: 2px solid black; */
+  display: flex;
+  border-radius: 10px;
+}
+.email-section input{
+  width: 80%;
+  padding: 16px 16px;
+  border: none;
+  border-radius: 8px;
+}
+.email-section input:focus{
+  outline: none;
+}
+.email-section button{
+  width: 20%;
+  border: none;
+  background-color: #ff136f;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
