@@ -96,3 +96,41 @@
   color: white;
   border: none;
 }
+/* .categories-section Styling */
+.categories-section{
+  /* border: 2px solid black; */
+  width: 1140px;
+  margin: auto;
+  margin-bottom: 50px;
+
+}
+.title01{
+  font-size: 36px;
+  font-weight: 700;
+}
+.categories{
+  width: 1140px;
+  /* border: 2px solid black; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.watch{
+  width: 360px;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ background-color: #FF9C35;
+ border-radius: 30px;
+}
+.watch p{
+  color: white;
+  font-size: 36px;
+}
+.bag{
+  background-color: #ff136f;
+}
+.shoes{
+  background-color: blue;
+}
