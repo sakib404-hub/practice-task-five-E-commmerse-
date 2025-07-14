@@ -13,7 +13,9 @@
 
 /* Shared Styling */
 
-
+.center{
+  text-align: center;
+}
 
 
 /* Nav-bar Styling */
@@ -133,4 +135,63 @@
 }
 .shoes{
   background-color: blue;
+}
+/* Styling different-section */
+.diiferent-categories{
+  width: 98.3vw;
+  /* height: 500px; */
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+
+.section-shoes{
+  width: 1140px;
+  margin: 24px auto 90px;
+}
+
+.section-shoes-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-shoes-card{
+  box-sizing: border-box;
+  width: 360px;
+  /* border: 2px solid black; */
+  background-color: white;
+  padding: 16px;
+  border-radius: 20px;
+}
+.section-shoes-card .title{
+  font-size: 24px;
+  font-weight: bold;
+}
+.section-shoes-card .btn001{
+  color: white;
+  padding: 6px 16px;
+  background-color: black;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+.section-shoes-card .btn001:hover{
+  border: 2px solid aliceblue;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+.section-shoes-card-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+}
+.heading{
+  font-size: 36px;
+  font-weight: bold;
+}
+.see-all{
+  color: #FF9C35;
+}
+.section-bag{
+  width: 1140px;
+  margin: 98px auto;
 }
