@@ -10,3 +10,48 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* Shared Styling */
+
+
+
+
+/* Nav-bar Styling */
+.nav-container{
+  width: 1140px;
+  height: 64px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.search-container{
+  width: 400px;
+  border: 2px solid black;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.search-container input{
+  width: 70%;
+  border: none;
+  background-color: #f1f1f1;
+}
+.search-container input:focus{
+  outline: none;
+}
+.other-section ul{
+  display: flex;
+}
+.other-section ul li{
+  list-style: none;
+  margin-left: 30px;
+}
+.other-section ul li a{
+  text-decoration: none;
+  color: black;
+}
