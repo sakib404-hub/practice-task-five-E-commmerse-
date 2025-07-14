@@ -57,6 +57,9 @@
   text-decoration: none;
   color: black;
 }
+.logo-container{
+  cursor: pointer;
+}
 
 
 /* Banner-Section */
@@ -72,6 +75,7 @@
   background-color: #FEEAE9;
   margin: 64px auto;
   border-radius: 30px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
 
 }
 .content{
@@ -94,9 +98,17 @@
 .btn{
   padding: 8px 16px;
   background-color: #ff136f;
+  border: 2px solid #ff136f;
   border-radius: 10px;
   color: white;
-  border: none;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+  background-color: #e65b90c7;
+  border: 2px solid aliceblue;
+  color: black;
+  transform: scale(1.1);
+  transition:all 0.3s ease;
 }
 /* .categories-section Styling */
 .categories-section{
@@ -125,6 +137,7 @@
  justify-content: space-around;
  background-color: #FF9C35;
  border-radius: 30px;
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
 }
 .watch p{
   color: white;
@@ -162,6 +175,7 @@
   background-color: white;
   padding: 16px;
   border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
 }
 .section-shoes-card .title{
   font-size: 24px;
@@ -176,6 +190,8 @@
 }
 .section-shoes-card .btn001:hover{
   border: 2px solid aliceblue;
+  color: black;
+  transform: scale(1.1);
   background-color: rgba(0, 0, 0, 0.384);
 }
 .section-shoes-card-container{
@@ -209,6 +225,7 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);
 }
 .email-section{
   width: 680px;
